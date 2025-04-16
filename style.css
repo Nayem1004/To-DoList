@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f5f5;
+  }
+  h1 {
+    color: #333;
+  }
+  input, button {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+  }
+  #taskList {
+    margin-top: 20px;
+  }
+  .task {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .status {
+    font-weight: bold;
+  }
+  .success {
+    color: green;
+  }
+  .pending {
+    color: orange;
+  }
+  .delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+  }
