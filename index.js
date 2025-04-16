@@ -2,9 +2,11 @@ function addTask() {
     const title = document.getElementById("title").value;
     const description = document.getElementById("description").value;
 
-    if (title === "" || description === "") {
-      alert("Please fill in both title and description");
+    if (title === "") {
+      alert("Please fill in title");
       return;
+    }else if(description === ""){
+        alert("please fill in description")
     }
 
     const taskList = document.getElementById("taskList");
